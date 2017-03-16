@@ -11,5 +11,10 @@ public class TestHelloWorld {
 	public void testSum(){
 		assertEquals(30, htest.sum(c, d));
 	}
+	
+	@Test
+	public void testMultiply(){
+		assertEquals(200, htest.multiply(c, d));
+	}
 
 }
